@@ -13,7 +13,7 @@ import reportWebVitals from "reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="amplifi-react-project">
+    <BrowserRouter basename="/">
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistedStore}>
           <ThemeProvider theme={theme}>
