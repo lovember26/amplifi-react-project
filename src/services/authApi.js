@@ -1,7 +1,7 @@
 import axios from "axios";
 
 axios.defaults.baseURL =
-  "http://buzz-talk-api.eu-west-3.elasticbeanstalk.com/api/accounts";
+  "https://buzz-talk-api.eu-west-3.elasticbeanstalk.com/api/accounts";
 
 export const registerUserService = async (credentials) => {
   const { data } = await axios.post("/register/", credentials);
