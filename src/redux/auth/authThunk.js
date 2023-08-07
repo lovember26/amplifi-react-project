@@ -9,7 +9,7 @@ import { selectAccessToken } from "./authSelectors";
 import { successNotification, errorNotification } from "helpers/notification";
 
 axios.defaults.baseURL =
-  "https://buzz-talk-api.eu-west-3.elasticbeanstalk.com/api/accounts";
+  "http://buzz-talk-api.eu-west-3.elasticbeanstalk.com/api/accounts";
 
 const token = {
   set(token) {
